@@ -1,0 +1,10 @@
+#配置其它应用所需的配置文件的位置位于类路径下的config目录下
+spring: 
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/config
+
+server: 
+  port: 8888

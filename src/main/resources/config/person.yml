@@ -1,0 +1,11 @@
+#一般开发环境下的配置
+spring: 
+  jpa:
+    database:
+      mysql
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
